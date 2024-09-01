@@ -1,0 +1,539 @@
+
+ /* Responser 1200-990px */
+ @media(max-width: 1200px) {
+    .container {
+      max-width: 990px;
+  }
+  .byma {
+    width: 46%;
+    height: 530px;
+}
+.vector {
+    transform: translate(-16rem, -134%);
+}
+
+.header__text__black{
+    margin-bottom: 100px;
+    max-width: 90%;
+}
+.wrapper {
+    gap: 0px;
+}
+.footer__row {
+    gap: 80px;
+}
+.footer__box {
+    display: flex;
+    gap: 60px;
+}
+.item-blog {
+    width: 100%;
+}
+.main {
+    width: 100%;
+}
+.main__box{
+    height: 400px;
+}
+
+.main_grid-1{
+    height: 400px;
+}
+
+  .git-img {
+    width: 100px;
+    height: 100px;
+}
+.git-row-item {
+    gap: 16px;
+}
+.git-row {
+    gap: 8rem;
+}
+.background-git {
+    height: 200rem;
+}
+.main_grid-2 {
+    width: 209%;
+}
+.main__box-1{
+    height: 40rem;
+}
+ }
+/* Responser 990-768px */
+@media(max-width: 990px) {
+    .container {
+      max-width: 768px;
+  }
+  .byma {
+    width: 46%;
+    height: 400px;
+}
+  .background-git {
+    height: 280rem;
+}
+  .git-row-list-title {
+    font-size: 2.2rem;
+}
+.git-row-item {
+    gap: 10px;
+}
+.git-row {
+    gap: 8rem;
+}
+.byma {
+    width: 40%;
+}
+.btn {
+    top: 0rem;
+}
+  .header__nav {
+    gap: 40px; 
+}
+.header__nav a {
+    font-size: 1.6rem;
+    line-height: 300%;
+}
+.header {
+    max-width: 640px;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+.header__title {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 4.8rem;
+    margin-bottom: 20px;
+}
+.header__text__black{
+    margin-bottom: 100px;
+    max-width: 90%;
+    font-size: 1.6rem;
+}
+.vector {
+    transform: translate(-9.5rem, -133%);
+    width: 70%;
+}
+.background {
+    height: 65rem;
+}
+.row {
+    gap: 90px;
+}
+.text-seriil {
+    font-size: 1.6rem;
+}
+.img-1 {
+    width: 100%;
+}
+.grid{
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.footer__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  40px;
+}
+.footer__row {
+    gap: 100px;
+    align-items: baseline;
+}
+.footer__nav {
+ 
+    margin: 0 auto;
+    width: 414px;
+}
+.background__video {
+    height: 600px;
+  &::before{
+    height: 600px;
+  }
+}
+.offer__center {
+    margin-bottom: 120px;
+}
+
+}
+/* Responser 767-590px */
+@media(max-width: 767px) {
+    .container {
+      max-width: 590px;
+  }
+  .background-git {
+    height: 290rem;
+}
+  .git-row {
+    flex-direction: column;
+    align-items:center;
+    gap: 4rem;
+  }
+  .background__video {
+    height: 575px;
+    &::before{
+        height: 575px;
+    }
+}
+.header-burger{
+    display: block;
+    /* position: relative; */
+    position: fixed;
+    z-index: 1;
+  }
+.box {
+    margin: -15px 0px;
+}
+  .header__nav {
+    display: none;
+}
+.wrapper {
+    /* flex-direction: column-reverse; */
+    /* position: relative; */
+    /* margin-top: 4rem; */
+    display: block;
+}
+.background {
+    height: 60rem;
+}
+.byma {
+    display: none;
+}
+    .btn {
+        top: 20rem;
+    }
+.header__text__black {
+    max-width: 100%;
+}
+h2 {
+    font-size: 3.8rem;
+    margin-bottom: 20px;
+}
+.text-section{
+    font-size: 1.6rem;
+}
+.row {
+    gap: 50px;
+}
+h3 {
+    font-size: 3.8rem;
+}
+
+.text-section__shedule {
+    font-size: 1.4rem;
+}
+.section__shedule-shan {
+    font-size: 8rem;
+}
+.border-solid {
+    border: solid 0px;
+    padding: 80px 10px;
+}
+.footer__row {
+    gap: 200px;
+    align-items: baseline;
+}
+.footer__box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+}
+.section__articail {
+    gap: 30px;
+}
+
+  .footer__nav{
+    display: block;
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+  .main__box-mobail-1{
+    height: 360px;
+}
+.header_hero-git {
+    margin-top: 0rem;
+}
+.offer {
+  
+}
+.btn {
+    top: 5rem;
+}
+.vector {
+    transform: translate(-9.5rem, -116%);
+    width: 85%;
+}
+}
+/* Responser 590px-400 */
+@media(max-width: 590px) {
+    .container {
+      max-width: 400px;
+      padding: 0 20px;
+      overflow: hidden;
+  }
+  .offer {
+    position: relative;
+    top: -42rem;
+    left: 0rem;
+}
+.vector-mobail {
+    transform: translate(-8rem, 0%);
+    width: 119%;
+}
+
+  .grid{
+    width: auto;
+    overflow: auto;
+}
+.img,.img-1 {
+    width: 360px;
+    height: 360px;
+}
+  .header__title-git{
+    font-size: 3.8rem;
+    margin-bottom: 0rem;
+  }
+  .header__text-git{
+    font-size: 14px;
+}
+  .background-git {
+    height: 515rem;
+    margin-top: -8rem;
+}
+  .header__title {
+    font-size: 4.8rem;
+    margin-bottom: 20px;
+}
+.header__text, .header__text__black, .text-section, .section__text {
+    font-size: 1.6rem;
+    line-height: 105%;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+.header__text__black{
+    padding-left: 5rem;
+    line-height: 140%;
+    font-size: 1.5rem;
+}
+.header__text{
+    text-align: center;
+    font-size: 2rem;
+}
+.btn {
+    position: relative;
+    top: -45rem;
+    right: 2rem;
+}
+
+.bg, .bg__black, .bg-section-bat {
+    padding: 16px 40px;
+    width: 195px;
+    font-size: 1.6rem;
+}
+.header__bg {
+    height: 500px;
+ &::before{
+    height: 500px;   
+ }
+}
+.btn {
+    margin-top: 150px;
+    /* margin-right: auto; */
+}
+section {
+    padding-top: 8rem;
+}
+.background {
+    height: 72rem;
+}
+h2 {
+    margin-bottom: 0px;
+    margin-top: 1rem;
+}
+
+.text-section{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.title__section-video{
+    font-size: 3.2rem;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+}
+.background__video {
+    height: 500px;
+    padding: 80px 0;
+    &::before{
+        height: 500px;  
+    }
+}
+.white {
+    height: 171px;
+}
+.pleer-section-mobail{
+    display: block;
+    margin: 0 auto;
+  }
+.pleer-section{
+    display: none;
+  }
+  .offer__center {
+    margin-bottom: 80px;
+}
+.box {
+    margin: -30px 0px;
+}
+.section__blog-title-blog{
+    font-size: 2.6rem;
+}
+.offer__center-blog {
+    padding-top: 6rem;
+}
+.section__text{
+    font-size: 1.4rem; 
+}
+.section__shedule-shan {
+    font-size: 7rem;
+}
+.section__articail {
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   margin-top: -4rem;
+
+}
+.section__articail-blol-box-title {
+    font-size: 4.8rem;
+}
+.section__articail-blol-box-text {
+    font-size: 1.6rem;
+}
+.footer__row {
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__roww {
+    width: 360px;
+    margin-left: -4rem;
+}
+.header__nav a {
+    font-size: 1.4rem;
+}
+.footer__nav {
+    gap: 3rem;
+}
+.fooret__icon {
+    gap: 25px;
+}
+.header__nav{
+   width: 360px;
+}
+footer {
+    background: #181A20;
+    padding: 80px 0px;
+}
+.background-2 {
+    height: 1160px;
+    margin-top: -80px;
+    padding: 80px 0;
+    &::before{
+        height: 1160px;
+    }
+}
+.border-solid {
+    border: solid 0px;
+    width: 100%;
+    height: 1390px;
+    padding: 0px 0px;
+}
+.section__articail-col {
+    margin-bottom: 4rem;
+}
+.footer__list {
+    width: 300px;
+}
+.header_hero {
+    margin-top: -10rem;
+}
+.vector {
+    display: none;
+}
+.vector-mobail{
+   display: block;
+   transform: translate(-9rem, 0%);
+   width: 125%;
+}
+.header {
+    padding-bottom: 170px;
+}
+}
+
+@media(max-width: 400px){
+    .container{
+        max-width: 350px;
+    }
+    .header__title-git {
+        font-size: 3.2rem;
+        margin-bottom: 0rem;
+    }
+    .header_hero {
+        margin-top: -8rem;
+    }
+    h2 {
+        font-size: 3.2rem;
+        margin-bottom: 0px;
+    }
+    span {
+        font-size: 1.6rem;
+      
+    }
+    .offer {
+        top: -36rem;
+        left: 0rem;
+    }
+    .vector-mobail {
+        transform: translate(-7.5rem, 0%);
+        width: 124%;
+    }
+    .header__text__black {
+        padding-left: 5rem;
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .btn {
+        top: -43rem;
+    }
+    .background {
+        height: 67rem;
+    }
+    .text-seriil {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 4rem;
+        color: #767A5C;
+        line-height: 110%;
+        text-align: center;
+        margin-bottom: -10px;
+    }
+    .box {
+        margin: -35px 0px;
+    }
+    .section__shedule-shan {
+        font-size: 6rem;
+    }
+    .header__nav a {
+        font-size: 1.2rem;
+    }
+    .fooret__icon {
+        gap: 20px;
+    }
+    section {
+        padding-top: 6rem;
+    }
+}
+

@@ -1,0 +1,34 @@
+@media(max-width: 1200px) {
+    .container {
+      max-width: 990px;
+  }
+  .git-img {
+    width: 90px;
+    height: 90px;
+}
+.git-row-item {
+    gap: 16px;
+}
+.git-row {
+    gap: 10rem;
+}
+}
+@media(max-width: 990px) {
+    .container {
+      max-width: 768px;
+  }
+  .background-git{
+    height: 280rem;
+  }
+}
+@media(max-width: 990px) {
+    .container {
+      max-width: 768px;
+  }
+  .git-row-list-title {
+    font-size: 2rem;
+}
+.git-row {
+    gap: 6rem;
+}
+}

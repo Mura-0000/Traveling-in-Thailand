@@ -1,0 +1,144 @@
+/* Responser 1200-990px */
+@media(max-width: 1200px) {
+    .container {
+      max-width: 990px;
+  }
+  h5{
+    font-size: 2.4rem;
+}
+h6 {
+    font-size: 2.6rem;
+}
+.main-img-1{
+    width: 100%;
+}
+}
+/* Responser 990-768px */
+@media(max-width: 990px) {
+    .container{
+        max-width: 768px;
+    }
+    .wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+    .background {
+        height: 2280px;
+    }
+    .main-img-1{
+        width: 208%;
+        height: 360px; 
+    }
+    .item-blog-1{
+        width: 200%;
+       
+    }
+    .item-blog-main-1{
+        width: 208%; 
+    }
+    .item-blog-main {
+        &, .item-blog-main-card {
+            max-width: 768px;
+       
+        }
+    }
+}
+/* Responser 767-590px */
+@media(max-width: 767px) {
+    .container {
+      max-width: 590px;
+  }
+  .main-img-1 {
+    width: 159%;
+    height: 360px;
+}
+.item-blog-main {
+    &, .item-blog-main-card {
+        max-width: 572px;
+    }
+}
+.header__blod-grug-mobail{
+    display: block;
+    margin: 0 auto;
+    background: url(../images/Ellipse-mobail.jpg);
+    border-radius: 60%;
+    width: 170px;
+    height: 170px;
+    margin-bottom: -32px;
+  }
+  .header__blod-grug{
+    display: none;
+  }
+  .header_hero-blog {
+    margin-top: 0px;
+}
+.main, .main-img-1 {
+    margin-bottom: -40px;
+    height: 300px;
+}
+.item-blog-main {
+    &, .item-blog-main-card {
+        padding: 20px 20px;
+    }
+}
+}
+/* Responser 590px-400 */
+@media(max-width: 590px) {
+    .container {
+      max-width: 400px;
+      padding: 0 20px;
+  }
+  .header_hero-blog {
+    margin-top: -130px;
+}
+.header__blod-grug-mobail {
+    margin-top: -3rem;
+    margin-bottom: -40px;
+}
+  .wrap {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px 20px;
+}
+.main-img-1 {
+    width: 100%;
+    
+}
+.main {
+    width: 100%;
+}
+.item-blog-main {
+    &, .item-blog-main-card {
+        max-width: 359px;
+    }
+}
+.wrap-row{
+    flex-direction: column;
+}
+.background {
+    height: 3020px;
+}
+}
+@media(max-width: 400px){
+    .main-img-1 {
+        width: 89%;
+    }
+    .container{
+        overflow: hidden;
+        max-width: 360px;
+    }
+    .dispertion-blog {
+        &, & .dispertion-blog-text {
+            &, dispertion-blog-text-card {
+                max-width: 89%;
+            }
+        }
+    }
+    .background {
+        height: 3180px;
+    }
+    .item-blog-main {
+        &, .item-blog-main-card {
+            max-width: 320px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+// abstracts
+// @import"abstracts/_mixins";
+// @import"abstracts/enclosure";
+@import"abstracts/variables";
+//  layout
+@import"layout/header";
+@import"layout/section";
+
+body{
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+font-family: "Raleway", system-ui;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+
+font-family: 'PachomiusW00-Regular', arial;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+ }
+ 
+ * {
+    box-sizing: border-box;
+ }
+ h1,h2,h3,h4,h5,h6{
+   font-family: "Raleway", system-ui;
+ }
+  p{
+   font-family: "Open Sans", sans-serif;
+  }
+  a{
+   font-family: "Open Sans", sans-serif;
+  }
+ 
+  section{
+   padding-top: 10rem;
+}
+h2{
+   font-size: 6rem;
+}
