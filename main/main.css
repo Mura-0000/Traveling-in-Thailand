@@ -464,6 +464,8 @@ footer{
 .footer__box{
  display: flex;
  gap: 80px;
+ position: relative;
+ z-index: 5;
 }
 .footer__logo{
   font-size: 4rem;
